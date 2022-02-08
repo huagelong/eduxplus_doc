@@ -1,2 +1,1 @@
-# eduxplus_home
-官网
+# EduxPlus 官网
