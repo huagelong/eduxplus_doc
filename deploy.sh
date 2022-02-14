@@ -18,6 +18,7 @@ git config --global user.email "hpuwang@gmail.com"
 
 git init
 git remote add origin $githubUrl
+git add -A
 git commit -am "${msg}"
 git push --set-upstream origin gh-pages --force
 
