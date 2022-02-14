@@ -9,6 +9,9 @@ yarn run build
 # 进入生成的文件夹
 cd docs/.vuepress/dist
 
+echo "eduxplus.com" > CNAME
+echo "www.eduxplus.com" >> CNAME
+
 msg="来自Github Actions的自动部署，更新于$(TZ=UTC-8 date "+%Y-%m-%d %H:%M:%S")"
 # deploy to github
 githubUrl=https://eduxplus_doc:${DOC_GITHUB_TOKEN}@github.com/trensy/eduxplus_doc.git
@@ -20,7 +23,7 @@ git init
 git remote add origin $githubUrl
 git add .
 git commit -m "${msg}"
-git push --set-upstream origin gh-pages --force
+git push --set-upstream origin master:gh-pages --force
 # 删除
 cd -
 rm -rf docs/.vuepress/dist
