@@ -15,7 +15,7 @@ echo "www.eduxplus.com" >> CNAME
 #echo "google.com, pub-4147143076931995, DIRECT, f08c47fec0942fa0" > ads.txt
 
 msg="来自Github Actions的自动部署，更新于$(TZ=UTC-8 date "+%Y-%m-%d %H:%M:%S")"
-codingUrl=https://${CODING_USER}:${CODING_TOKEN}@e.coding.net:banxian-01/eduxplus/eduxplus_home.git
+codingUrl=https://${CODING_USER}:${CODING_TOKEN}@e.coding.net:banxian-01/eduxplus/eduxplus_doc.git
 
 git config --global user.name "kaihui.wang"
 git config --global user.email "hpuwang@gmail.com"
