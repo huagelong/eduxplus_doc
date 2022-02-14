@@ -11,7 +11,7 @@ cd docs/.vuepress/dist
 
 msg="来自Github Actions的自动部署，更新于$(TZ=UTC-8 date "+%Y-%m-%d %H:%M:%S")"
 # deploy to github
-githubUrl=https://trensy:${DOC_GITHUB_TOKEN}@github.com/trensy/eduxplus_doc.git
+githubUrl=https://eduxplus_doc:${DOC_GITHUB_TOKEN}@github.com/trensy/eduxplus_doc.git
 
 git config --global user.name "kaihui.wang"
 git config --global user.email "hpuwang@gmail.com"
