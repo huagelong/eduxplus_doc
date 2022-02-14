@@ -9,22 +9,18 @@ yarn run build
 # 进入生成的文件夹
 cd docs/.vuepress/dist
 
-# 部署到Coding
-echo "eduxplus.com" > CNAME
-echo "www.eduxplus.com" >> CNAME
-#echo "google.com, pub-4147143076931995, DIRECT, f08c47fec0942fa0" > ads.txt
-
 msg="来自Github Actions的自动部署，更新于$(TZ=UTC-8 date "+%Y-%m-%d %H:%M:%S")"
-codingUrl=https://${CODING_USER}:${CODING_TOKEN}@e.coding.net/banxian-01/eduxplus/eduxplus_doc.git
+# deploy to github
+githubUrl=https://trensy:${DOC_GITHUB_TOKEN}@github.com/trensy/eduxplus_doc.git
 
 git config --global user.name "kaihui.wang"
 git config --global user.email "hpuwang@gmail.com"
 
 git init
-git remote add origin $codingUrl
+git remote add origin $githubUrl
 git add -A
 git commit -m "${msg}"
-git push -f origin master
+git push -f origin gh-pages
 
 # 删除
 cd -
