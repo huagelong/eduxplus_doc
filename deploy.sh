@@ -21,7 +21,6 @@ git remote add origin $githubUrl
 git add .
 git commit -m "${msg}"
 git push --set-upstream origin gh-pages --force
-
 # 删除
 cd -
 rm -rf docs/.vuepress/dist
