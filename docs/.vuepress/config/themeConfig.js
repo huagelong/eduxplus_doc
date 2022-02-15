@@ -10,7 +10,7 @@ module.exports = {
   searchMaxSuggestions: 10,
   lastUpdated: "上次更新",
 
-  docsRepo: "trensy/eduxplus_home",
+  docsRepo: "trensy/eduxplus_doc",
   docsDir: "docs",
   docsBranch: "master",
   editLinks: true,
