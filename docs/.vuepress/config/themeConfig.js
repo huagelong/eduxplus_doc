@@ -59,7 +59,7 @@ module.exports = {
       ' | ',
       'Sponsored by <a href="https://www.jetbrains.com" target="_blank" style="font-weight:bold">JetBrains</a>',
       ' | ',
-      '<a href="http://beian.miit.gov.cn/" target=_blank>sss</a>',
+      '<a href="http://beian.miit.gov.cn/" target=_blank>沪ICP备2020037589号-1</a>',
       '</p>'
     ].join('')
   },
