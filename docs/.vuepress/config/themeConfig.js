@@ -55,11 +55,11 @@ module.exports = {
   footer: {
     createYear: 2016,
     copyrightInfo: [
-      '<a href="http://eduxplus.com" target="_blank" style="font-weight:bold">Team Trensy</a>',
+      '<a href="http://eduxplus.com" target="_blank" style="font-weight:bold">Team eduxplus</a>',
       ' | ',
       'Sponsored by <a href="https://www.jetbrains.com" target="_blank" style="font-weight:bold">JetBrains</a>',
       ' | ',
-      '<a href="http://beian.miit.gov.cn/" target=_blank>渝ICP备2021000141号</a>',
+      '<a href="http://beian.miit.gov.cn/" target=_blank>sss</a>',
       '</p>'
     ].join('')
   },
