@@ -1,5 +1,3 @@
-const loveMe = require("./../plugins/love-me");
-
 // Plugin Config
 module.exports = [
   // 搜索框第三方搜索
@@ -27,7 +25,7 @@ module.exports = [
   [
     "vuepress-plugin-baidu-tongji",
     {
-      hm: "577e65b88c06c034335c395caa4b6205"
+      hm: "b35917235aa1389bb494d04deb745ec6"
     }
   ],
   // 代码块复制
