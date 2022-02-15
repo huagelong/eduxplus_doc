@@ -4,7 +4,7 @@ const themeConfig = require('./config/themeConfig.js');
 
 module.exports = {
   theme: "vdoing",
-  title: "EduxPlus 文档",
+  title: "EduxPlus",
   description: 'EduxPlus 文档',
   base: "/",
   markdown: {
