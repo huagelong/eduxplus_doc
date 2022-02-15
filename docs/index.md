@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: /img/logo.svg
-heroText: none
+heroText: 
 tagline: 🚀教育成就未来
 actionText: 快速开始 →
 actionLink: /pages/24112f/
