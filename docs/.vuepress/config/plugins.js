@@ -6,7 +6,7 @@ module.exports = [
   [
     loveMe,
     {
-      color: "#11a8cd",
+      color: "#005EF2",
       excludeClassName: "theme-vdoing-content"
     }
   ],

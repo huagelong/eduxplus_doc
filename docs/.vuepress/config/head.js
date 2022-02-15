@@ -9,7 +9,7 @@ module.exports = [
         "eduxplus,edux"
     }
   ],
-  ["meta", { name: "theme-color", content: "#11a8cd" }],
+  ["meta", { name: "theme-color", content: "#005EF2" }],
   // [
   //   "script",
   //   {

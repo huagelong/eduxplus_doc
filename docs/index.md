@@ -26,10 +26,10 @@ postList: none
   .become-sponsor{
     padding: 8px 20px;
     display: inline-block;
-    color: #11a8cd;
+    color: #005EF2;
     border-radius: 30px;
     box-sizing: border-box;
-    border: 1px solid #11a8cd;
+    border: 1px solid #005EF2;
   }
 </style>
 
