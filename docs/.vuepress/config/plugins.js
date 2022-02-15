@@ -2,14 +2,6 @@ const loveMe = require("./../plugins/love-me");
 
 // Plugin Config
 module.exports = [
-  // 鼠标点击爱心特效
-  [
-    loveMe,
-    {
-      color: "#005EF2",
-      excludeClassName: "theme-vdoing-content"
-    }
-  ],
   // 搜索框第三方搜索
   [
     "thirdparty-search",
