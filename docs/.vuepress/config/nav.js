@@ -14,5 +14,5 @@ module.exports = [
       { text: "使用配置", link: "/pages/56bac0/" }
     ]
   },
-  { text: "💖支持", link: "/pages/4fedc2/" }
+  { text: "💖支持", link: "/pages/eefedc2/" }
 ];
