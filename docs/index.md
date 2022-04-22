@@ -7,11 +7,11 @@ actionText: 快速开始 →
 actionLink: /pages/24112f/
 bannerBg: none
 
-features: # 可选的
+features: 
   - title: 功能适合行业特点
-    details: 作者从事在线教育行业多年，相关功能都是针对行业痛点开发。
+    details: 多年在线教育行业开发，相关功能都是针对行业痛点开发。
   - title: 功能丰富
-    details: 教务，教学，商城，试题全覆盖在线教培机构需要的功能，方便快速开展业务。
+    details: 教务，教学，商城，试题全覆盖，方便快速开展业务。
   - title: 便于二次开发
     details: 基于php symfony框架开发，安全，稳定，灵活。管理后台可以快速创建CURD代码。
 
