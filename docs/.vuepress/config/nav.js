@@ -11,7 +11,7 @@ module.exports = [
     text: "开发指南",
     link: "/pages/56bac0/",
     items: [
-      { text: "使用配置", link: "/pages/56bac0/" }
+      { text: "系统安装", link: "/pages/56bac0/" }
     ]
   },
   { text: "💖支持", link: "/pages/eefedc2/" }
